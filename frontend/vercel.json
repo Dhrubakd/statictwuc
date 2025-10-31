@@ -1,0 +1,27 @@
+{{
+
+  "rewrites": [  "rewrites": [
+
+    {    {
+
+      "source": "/(.*)",      "source": "/(.*)",
+
+      "destination": "/index.html"      "destination": "/index.html"
+
+    }    }
+
+  ]  ],
+
+}  "headers": [
+
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        }
+      ]
+    }
+  ]
+}
