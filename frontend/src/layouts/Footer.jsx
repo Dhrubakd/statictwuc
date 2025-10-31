@@ -184,7 +184,7 @@ const Footer = () => {
             </div>
             <div className="relative flex justify-center">
               <div className="bg-gradient-to-br from-gray-900 to-blue-900 px-4">
-                <HiHeart className="w-6 h-6 text-red-400 animate-pulse" />
+                {/* <HiHeart className="w-6 h-6 text-red-400 animate-pulse" /> */}
               </div>
             </div>
           </div>
@@ -196,7 +196,7 @@ const Footer = () => {
               <span className="hidden sm:inline">•</span>
               <span>All rights reserved.</span>
             </p>
-            <p className="text-gray-500 text-xs flex items-center justify-center flex-wrap gap-2">
+            {/* <p className="text-gray-500 text-xs flex items-center justify-center flex-wrap gap-2">
               <span>Crafted with</span>
               <HiHeart className="w-4 h-4 text-red-400 animate-pulse" />
               <span>by</span>
@@ -208,7 +208,7 @@ const Footer = () => {
               >
                 Qubic Consulting Pvt. Ltd.
               </a>
-            </p>
+            </p> */}
           </div>
         </div>
 
