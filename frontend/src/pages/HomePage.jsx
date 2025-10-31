@@ -35,7 +35,7 @@ const HomePage = () => {
   }, []);
 
   return (
-    <div className="mt-20 mx-auto bg-gradient-to-b from-gray-50 to-white">
+    <div className="mt-16 mx-auto bg-gradient-to-b from-gray-50 to-white">
       {/* Hero Section */}
       <Hero />
 
